@@ -54,7 +54,7 @@ public class ClientConfiguration {
     /**
      * If initiated using this constructor, you can specify location of file download
      * */
-    private ClientConfiguration(String userName, String password, String authenBaseUrl, String czdsBaseUrl, String workingDir) {
+    public ClientConfiguration(String userName, String password, String authenBaseUrl, String czdsBaseUrl, String workingDir) {
         setUserName(userName);
         setPassword(password);
         setAuthenticationBaseUrl(authenBaseUrl);
